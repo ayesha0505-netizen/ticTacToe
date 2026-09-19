@@ -1,19 +1,36 @@
-body {
+body{
+    background-color: black;
     text-align: center;
+    color: aqua;
 }
 
-.game {
-    width: 300px;
+
+.game{
     height: 300px;
-    border: 1px solid black;
-    margin: 30px auto;
+    width: 300px;
+    border: 3px solid blue;
+    margin:30px  auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3 , 1fr);   
 }
 
-.box {
+
+.box{
     height: 100px;
+    width: 100px;
     font-size: 40px;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid orange;
+}
+
+
+#reset-btn{
+    font-size: 30px;
+    border: 10 px solid olivedrab;
+    background-color: chocolate;
+
+}
+
+H1{
+    color: palevioletred;
 }
