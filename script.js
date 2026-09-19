@@ -17,7 +17,7 @@ let winnerPattern = [
 ]
 
 
-boxes.forEach(element => {
+boxes.forEach((element) => {
     element.addEventListener("click" , () =>{
         if(turnO === true){
         element.innerText = "O";
